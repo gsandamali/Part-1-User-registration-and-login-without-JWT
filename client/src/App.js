@@ -10,7 +10,7 @@ function App() {
  const [username, setUername] = useState("");
  const [password, setPassword] = useState ("");
  
- const [loginStatus, setLoginStatus] = useState(false);
+ const [loginStatus, setLoginStatus] = useState("");
  
  const register = () => {
     Axios.post("http://localhost:3001/register", {
